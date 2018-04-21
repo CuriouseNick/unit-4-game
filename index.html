@@ -1,0 +1,69 @@
+<!-- Homework The Psychic Game -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+<!-- Include jQuery framework -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Include Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>The Crystals Collector</title>
+</head>
+
+<body>
+<!-- Bootstrap top menu -->
+    <div class="jumbotron">
+        <h1>The Crystals Collector</h1>
+        <p><a id="start_game" class="btn btn-primary btn-lg" href="#" role="button">Start Game</a></p>
+    </div>
+<!-- Main game field -->
+    <div id="page">
+            <div id="score">
+                <div id="left_score">
+                    <div class="page-header">
+                        <h3>TOTAL SCORE: <br><div id="total_score"></div></h3>
+                    </div>
+                </div>
+                <div id="right_score">
+                    <div class="page-header">
+                        <h3>YOUR SCORE: <br><div id="your_score"></div></h3>
+                    </div>
+                </div>
+            </div>
+            <div id="sub_score">
+                    <div id="win_status">
+                        <div class="page-header">
+                            <h3><div id="gstat"></div></h3>
+                        </div>
+                    </div>
+                    <div id="count_of_win">
+                        <div class="page-header">
+                            <h3>WINS: <div id="wins"></div></h3>
+                        </div>
+                    </div>
+                    <div id="count_of_Looses">
+                        <div class="page-header">
+                            <h3>LOSSES: <div id="losses"></div></h3>
+                        </div>
+                    </div>
+            </div>
+            <div id="game_field">
+                <div id="crystal1">
+                    <img id="cryst1" src="assets/images/crystal1.jpg">
+                </div>
+                <div id="crystal2">
+                    <img id="cryst2" src="assets/images/crystal2.jpg">
+                </div>
+                <div id="crystal3">
+                    <img id="cryst3" src="assets/images/crystal3.jpg">
+                </div>
+                <div id="crystal4">
+                    <img id="cryst4" src="assets/images/crystal4.jpg">
+                </div>
+            </div>
+    </div>
+    <!-- Control Script Resource -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</html>
